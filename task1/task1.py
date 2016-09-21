@@ -26,7 +26,7 @@ def change_words(text):
 
 def main():
     # Считываем таблицы с данными "позитивные" и "отрицательные" отзывы
-    negative = pd.read_csv('negative_1.csv',delimiter=',')
+    negative = pd.read_csv('negative.csv',delimiter=',')
     positive = pd.read_csv('positive.csv',delimiter=',')
    
     # Удаляем лишний столбец
